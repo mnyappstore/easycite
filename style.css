@@ -147,3 +147,14 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
+
+.store-button img {
+    margin-top: 20px;
+    width: 200px; /* Buton boyutunu belirlemek için */
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.store-button img:hover {
+    transform: scale(1.05); /* Hover'da hafif büyüme efekti */
+}
